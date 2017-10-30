@@ -1,0 +1,7 @@
+target
+.idea/workspace.xml
+.idea/libraries
+.DS_Store
+~$*.docx
+.~lock.*.odg#
+.*.swp
