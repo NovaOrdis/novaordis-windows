@@ -79,7 +79,14 @@ public class Connection {
 
         String stateString = line.substring(i + 1);
 
-        this.state = ConnectionState.valueOf(stateString);
+        try {
+
+            this.state = ConnectionState.valueOf(stateString);
+        }
+        catch(IllegalArgumentException e) {
+
+            throw new Exception("line " + lineNumber + ": " + "invalid state: " + stateString);
+        }
 
         line = line.substring(0, i);
 

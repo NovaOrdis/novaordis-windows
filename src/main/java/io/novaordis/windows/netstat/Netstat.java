@@ -259,7 +259,7 @@ public class Netstat {
 
     private static class TimestampInfo {
 
-        public static final Pattern DATE_PATTERN = Pattern.compile("^[1-3][0-9]/[0-1][0-9]/\\d\\d\\d\\d.*");
+        public static final Pattern DATE_PATTERN = Pattern.compile("^[0-3][0-9]/[0-1][0-9]/\\d\\d\\d\\d.*");
         public static final Pattern TIME_PATTERN = Pattern.compile("^[0-2]\\d:\\d\\d.*");
 
         public static final SimpleDateFormat TIMESTAMP_INPUT_FORMAT = new SimpleDateFormat("dd/MM/yyyy HH:mm");
