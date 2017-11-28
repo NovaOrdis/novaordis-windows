@@ -164,6 +164,7 @@ public class Netstat {
                 ConnectionState.TIME_WAIT,
                 ConnectionState.CLOSED,
                 ConnectionState.CLOSE_WAIT,
+                ConnectionState.CLOSING,
                 ConnectionState.FIN_WAIT_1,
                 ConnectionState.FIN_WAIT_2,
                 ConnectionState.LAST_ACK,

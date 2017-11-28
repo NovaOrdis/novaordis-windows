@@ -26,6 +26,7 @@ public enum ConnectionState {
 
     CLOSED,
     CLOSE_WAIT,
+    CLOSING,
     ESTABLISHED,
     FIN_WAIT_1,
     FIN_WAIT_2,
