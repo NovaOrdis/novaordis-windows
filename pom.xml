@@ -16,7 +16,7 @@
                Dependency Versions
         -->
 
-        <novaordis.utilities.version>4.7.13-SNAPSHOT-1</novaordis.utilities.version>
+        <novaordis.utilities.version>4.7.14</novaordis.utilities.version>
 
         <slf4j.version>1.7.12</slf4j.version>
         <junit.version>4.12</junit.version>
@@ -30,6 +30,13 @@
         <release_date>${maven.build.timestamp}</release_date>
 
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>novaordis-nexus</id>
+            <url>https://maven.apps.openshift.novaordis.io/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 
     <build>
 
